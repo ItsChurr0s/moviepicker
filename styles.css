@@ -6,12 +6,21 @@
   scroll-behavior: smooth;
 }
 
+
+/* body {
+  background-image: url("./assets/2mockup.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+=======
 body {
   background-image:url("./assets/2mockup.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+
 
 .navbar-container {
   position: fixed;
@@ -47,18 +56,25 @@ button {
   color: black;
   border-radius: 50px;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .result-box {
-  position: relative;
-  top: 20%;
+  position: absolute;
+  top: 350px;
+  left: 840px;
   display: flex;
-  height: 300px;
-  width: 250px;
+  height: 405px;
+  width: 585px;
+  border-radius: 10px;
   background-color: purple;
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.by-genre {
+  cursor: pointer;
 }
 
 .mst3000 {
