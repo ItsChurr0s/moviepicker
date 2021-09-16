@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
-  scroll-behavior: smooth;
+  outline: none;
 }
 
 body {
@@ -32,6 +32,10 @@ body {
   background-color: red;
 }
 
+.btn.by-genre:focus {
+  background-color: red;
+}
+
 .btn.by-actor {
   position: absolute;
   top: 365px;
@@ -39,6 +43,10 @@ body {
 }
 
 .btn.by-actor:hover {
+  background-color: red;
+}
+
+.btn.by-actor:focus {
   background-color: red;
 }
 
@@ -52,6 +60,10 @@ body {
   background-color: red;
 }
 
+.btn.by-director:focus {
+  background-color: red;
+}
+
 .btn.surprise-me {
   position: absolute;
   top: 518px;
@@ -59,6 +71,10 @@ body {
 }
 
 .btn.surprise-me:hover {
+  background-color: red;
+}
+
+.btn.surprise-me:focus {
   background-color: red;
 }
 
@@ -78,6 +94,30 @@ body {
 
 .btn-find-movie:hover {
   background-color: rgb(245, 96, 96);
+}
+
+.form-by-genre {
+  position: absolute;
+  display: none;
+  top: 580px;
+  left: 145px;
+}
+
+select {
+  width: 205px;
+}
+
+select::-webkit-scrollbar {
+  display: none;
+}
+
+option {
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .result-box {
