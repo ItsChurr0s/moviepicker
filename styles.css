@@ -7,12 +7,20 @@
 }
 
 body {
-  background-image: url("./assets/2mockup.png");
+  background-image: url("./assets/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   top: 0;
   left: 0;
+}
+
+.remote {
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  top: 128px;
+  left: 100px;
 }
 
 .btn {
@@ -97,6 +105,13 @@ body {
 }
 
 .form-by-genre {
+  position: absolute;
+  display: none;
+  top: 580px;
+  left: 145px;
+}
+
+.form-by-actor {
   position: absolute;
   display: none;
   top: 580px;
