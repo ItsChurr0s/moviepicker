@@ -118,6 +118,13 @@ body {
   left: 145px;
 }
 
+.form-by-director {
+  position: absolute;
+  display: none;
+  top: 580px;
+  left: 145px;
+}
+
 select {
   width: 205px;
 }
