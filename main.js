@@ -7,3 +7,12 @@ function ShowHideGenre() {
         genreToggle.style.display = "block";
     }
 }
+
+function ShowHideActor() {
+    let genreToggle = document.getElementById("form-by-actor");
+    if (genreToggle.style.display === "block") {
+        genreToggle.style.display = "none";
+    } else {
+        genreToggle.style.display = "block";
+    }
+}
