@@ -16,3 +16,12 @@ function ShowHideActor() {
         genreToggle.style.display = "block";
     }
 }
+
+function ShowHideDirector() {
+    let genreToggle = document.getElementById("form-by-director");
+    if (genreToggle.style.display === "block") {
+        genreToggle.style.display = "none";
+    } else {
+        genreToggle.style.display = "block";
+    }
+}
