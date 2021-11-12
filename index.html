@@ -7,7 +7,31 @@
     <link rel="stylesheet" href="styles.css"> 
 </head>
     
-<body>
+<body>   
+    <div class="tv">       
+        <img src="assets/tvsmall.png">
+        <div class="result-box">
+            <div id="backdropDiv" class="backdropIMG">
+            <img id="backdropIMG">    
+            </div>
+            <div id="returnMovie" class="movie-title">Movie</div>
+            <div id="returnOverview" class="movie-summary"></div>
+            <div id="returnYear" class="movie-year"></div>
+        </div>
+    </div>
+
+    <div class="beavis">       
+        <img src="assets/beavis.png">
+    </div>
+
+    <div class="butthead">       
+        <img src="assets/butthead.png">
+    </div>
+
+    <!-- <div class="couch">       
+        <img src="assets/couch.png">
+    </div> -->
+
     <div class="remote">
        
         <!-- Remote -->
@@ -17,7 +41,7 @@
         <button id="by-genre" class="btn by-genre" onClick="ShowHideGenre()"></button>
         <button id="by-actor" class="btn by-actor" onClick="ShowHideActor()"></button>
         <button id="by-director" class="btn by-director" onClick="ShowHideDirector()"></button>
-        <button id="surprise-me" class="btn surprise-me" onClick="SurpiseMe()"></button>
+        <button id="surprise-me" class="btn surprise-me" onClick="SurpriseMe()"></button>
         <button id="find-movie" class="btn-find-movie" onClick="FindMovie()">FIND MOVIE</button>
         
         <!-- Genre Forms -->
@@ -42,16 +66,7 @@
         <!-- Director Search -->
         <input id="director-search" type="text" placeholder="by director"></input>
     
-    </div>    
-    
-    <div class="result-box">
-       
-        <!-- TV -->
-        <img src="assets/tv.png" class="tv">
-
-        <div id="returnMovie" class="movie-title">Movie</div>
-    </div>
-
+    </div> 
     
     <script src="main.js"></script>
 </body>
